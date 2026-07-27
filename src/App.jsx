@@ -81,7 +81,7 @@ function App() {
     <>
     <Navbar />
       <div className='flex justify-center'>  
-        <div className="md:container bg-violet-200 mx-auto my-5 rounded-3xl md:px-10 px-2 min-h-[80vh] md:w-[70vw] ">
+        <div className="md:container bg-violet-200 mx-auto my-5 md:rounded-3xl rounded-xl md:px-10 px-2 min-h-[80vh] md:w-[70vw] ">
           <h1 className='font-bold md:text-xl text-sm flex justify-center py-5'>Itask - Manage your todos at one place</h1>
           <div className="addtodo flex items-center md:gap-3 gap-2">
             <h1 className='md:text-lg text-sm font-bold'>Add a Todo</h1>
